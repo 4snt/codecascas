@@ -20,7 +20,7 @@ export default async function RootLayout({
     ? (langParam as LanguageKeys)
     : "en";
 
-  const baseUrl = "https://seusite.com"; // 👉 troque pelo seu domínio real
+  const baseUrl = "https://codecascas.vercel.app/"; // 👉 troque pelo seu domínio real
 
   return (
     <html lang={lang}>
@@ -30,7 +30,7 @@ export default async function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta
           name="description"
-          content="N&E Tree Services - Professional tree care, trimming, and removal services to keep your property safe and beautiful."
+          content="Codecascas — desenvolvimento web e soluções digitais para sua presença online."
         />
 
         {/* Google Search Console verification */}
@@ -43,10 +43,10 @@ export default async function RootLayout({
         <meta name="robots" content="index, follow" />
 
         {/* Open Graph */}
-        <meta property="og:title" content="N&E Tree Services" />
+        <meta property="og:title" content="Codecascas" />
         <meta
           property="og:description"
-          content="Transform your outdoor space with our professional tree care services."
+          content="Codecascas — desenvolvimento web e soluções digitais para sua presença online."
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content={`${baseUrl}/${lang}`} />
@@ -54,10 +54,10 @@ export default async function RootLayout({
 
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="N&E Tree Services" />
+        <meta name="twitter:title" content="Codecascas" />
         <meta
           name="twitter:description"
-          content="Transform your outdoor space with our professional tree care services."
+          content="Codecascas — desenvolvimento web e soluções digitais para sua presença online."
         />
         <meta name="twitter:image" content={`${baseUrl}/preview.jpg`} />
 

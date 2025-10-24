@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: ["/api/", "/admin/"], // bloqueia rotas que não devem ser indexadas
     },
-    sitemap: "https://seusite.com/sitemap.xml",
+    sitemap: "https://codecascas.com/sitemap.xml",
   };
 }

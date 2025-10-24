@@ -3,19 +3,19 @@ import { MetadataRoute } from "next";
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
-      url: "https://acheisolutions.com",
+      url: "https://codecascas.com",
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 1.0,
     },
     {
-      url: "https://acheisolutions.com/en",
+      url: "https://codecascas.com/en",
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 0.9,
     },
     {
-      url: "https://acheisolutions.com/pt",
+      url: "https://codecascas.com/pt",
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 0.9,
