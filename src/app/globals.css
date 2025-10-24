@@ -1,0 +1,62 @@
+@import "tailwindcss";
+@import "tailwindcss/utilities";
+
+:root {
+  /* ==== Brand Palette (flat) ==== */
+  --brand-blue-1: #3e90fb; /* azul vivo */
+  --brand-blue-2: #2a8dde; /* azul médio */
+  --brand-cyan: #48c6e0; /* azul/ciano destaque */
+  --brand-light: #9bf0ee; /* azul claro */
+  --brand-dark: #02213b; /* quase preto */
+  --brand-red: #ff3131; /* vermelho alerta */
+  --brand-white: #ffffff; /* branco puro */
+
+  /* ==== Aliases semânticos ==== */
+  --color-primary: var(--brand-blue-1);
+  --color-secondary: var(--brand-cyan);
+  --color-accent: var(--brand-light);
+  --color-dark: var(--brand-dark);
+  --color-danger: var(--brand-red);
+  --color-bg: var(--brand-white);
+  --color-text: var(--brand-dark);
+
+  /* ==== Neon Variants ==== */
+  --neon-blue-1: 0 0 8px #3e90fb, 0 0 16px #3e90fb, 0 0 24px #3e90fb;
+  --neon-blue-2: 0 0 8px #2a8dde, 0 0 16px #2a8dde, 0 0 24px #2a8dde;
+  --neon-cyan: 0 0 8px #48c6e0, 0 0 16px #48c6e0, 0 0 24px #48c6e0;
+  --neon-light: 0 0 8px #9bf0ee, 0 0 16px #9bf0ee, 0 0 24px #9bf0ee;
+  --neon-dark: 0 0 8px #02213b, 0 0 16px #02213b, 0 0 24px #02213b;
+  --neon-red: 0 0 8px #ff3131, 0 0 16px #ff3131, 0 0 24px #ff3131;
+  --neon-white: 0 0 8px #ffffff, 0 0 16px #ffffff, 0 0 24px #ffffff;
+}
+
+/* Reset e ajustes */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+img,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+header,
+nav,
+.navbar,
+.site-header {
+  margin-bottom: 0 !important;
+  border-bottom: 0;
+}
