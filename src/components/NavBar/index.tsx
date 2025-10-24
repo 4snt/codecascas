@@ -50,11 +50,9 @@ export default function Navbar() {
           className="flex items-center shrink-0 cursor-pointer"
           aria-label="Home"
         >
-          <img
-            src="/assets/logosquare.png"
-            alt="Achei Solutions"
-            className="h-[44px] w-auto md:h-[50px]"
-          />
+          <h1 className="text-2xl font-bold text-white neon-text">
+            Codecascas
+          </h1>
         </button>
 
         {/* Toggle ONLY mobile */}

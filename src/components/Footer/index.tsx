@@ -40,11 +40,9 @@ export default function Footer() {
         {/* Col 1 */}
         <div className="flex-1 min-w-[250px] mb-10 pr-[30px] md:pr-0">
           <button onClick={() => goTo("/")} className="mb-5 cursor-pointer">
-            <img
-              src="/assets/logobranca.png"
-              alt="Achei LLC Logo"
-              className="h-[70px] w-auto"
-            />
+            <h1 className="text-4xl font-bold text-white neon-text">
+              Codecascas
+            </h1>
           </button>
           <p className="text-[14px] leading-[1.6]">{t.companyDescription}</p>
         </div>
@@ -140,7 +138,7 @@ export default function Footer() {
         "
       >
         <p className="m-0">
-          © {currentYear} Achei LLC. {t.allRightsReserved}
+          © {currentYear} Codecascas. {t.allRightsReserved}
         </p>
         <div className="flex gap-5">
           <button

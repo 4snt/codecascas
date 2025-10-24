@@ -60,3 +60,7 @@ nav,
   margin-bottom: 0 !important;
   border-bottom: 0;
 }
+
+.neon-text {
+  text-shadow: var(--neon-white);
+}
